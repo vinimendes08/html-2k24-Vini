@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Tem alguma dúvida ou deseja saber mais? Envie-nos uma mensagem!</p>
+        <form>
+            <label for="email">Seu Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <hr>
+    <footer>
+        <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
